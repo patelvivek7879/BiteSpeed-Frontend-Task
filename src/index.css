@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__node-default{
+    padding: 0 !important;
+}
+
+.sidebar-textarea{
+    border-radius: 3px;
+    padding: 4px;
+}

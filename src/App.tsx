@@ -26,7 +26,7 @@ function App() {
   const reactFlowWrapper = useRef(null);
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
-  const [reactFlowInstance, setReactFlowInstance] = useState(null);
+  const [reactFlowInstance, setReactFlowInstance] = useState<any>(null);
 
   // state to get details of selected node
   const [selectedNode, setSelectedNode] = useState<{ [x: string]: any }>({});

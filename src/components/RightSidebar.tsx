@@ -44,7 +44,7 @@ const RightSidebar = ({
 
   return (
     <div className="w-96 border-0 border-l-2 p-2">
-      {!selectedNode ? (
+      {Object.keys(selectedNode).length === 0 ? (
         <div
           className="flex flex-col justify-center items-center left-auto right-auto border rounded p-4 hover: cursor-grab"
           onDragStart={(event) => onDragStart(event, "default")}

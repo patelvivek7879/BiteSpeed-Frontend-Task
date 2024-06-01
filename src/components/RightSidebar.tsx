@@ -23,7 +23,7 @@ const RightSidebar = ({
   }, [selectedNode]);
 
   const onBackBtnClick = () => {
-    setSelectedNode(null);
+    setSelectedNode({});
   };
 
   const onTextAreaChange = (e: any) => {

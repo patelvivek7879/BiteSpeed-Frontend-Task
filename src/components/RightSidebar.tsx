@@ -56,7 +56,7 @@ const RightSidebar = ({
       ) : (
         <div className="w-full">
           <div className="flex items-center border rounded p-4">
-            <div onClick={() => onBackBtnClick()}>
+            <div className="hover:cursor-pointer" onClick={() => onBackBtnClick()}>
               <IoMdArrowRoundBack />
             </div>
             <div className="w-full flex justify-center">{"Message"}</div>
